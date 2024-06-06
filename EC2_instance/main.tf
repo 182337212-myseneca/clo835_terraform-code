@@ -75,6 +75,6 @@ resource "aws_ecr_repository" "ecr-db" {
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
-    scan_on_push = trueclean
+    scan_on_push = true
   }
 }
